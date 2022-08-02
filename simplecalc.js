@@ -1,6 +1,6 @@
 // Crad zu Celsius Umrechnen
-
-let far = prompt("Bitte °C eingeben:");
+bqqb
+document.getElementById('textbox_id').far;
 
 let result = ctof(far);
 
