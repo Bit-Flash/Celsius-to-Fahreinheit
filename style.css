@@ -1,0 +1,22 @@
+body {
+    background-color: paleturquoise;
+}
+
+
+.Rechner {
+    width: 400px;
+    margin: 10px;
+    border-radius:100px;
+    border-width: 10px;
+    border-color: black;
+    padding: 50px;
+    background-color: rgb(71, 71, 131);
+    font-family: calibri;
+    color: white;
+}
+
+input {
+    padding: 3px;
+    border: 10px;
+    border-color: black;
+}

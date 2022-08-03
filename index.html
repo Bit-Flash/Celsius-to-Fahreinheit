@@ -2,16 +2,23 @@
 <html lang='de'>
     
     <head>
-        <p id="output"></p> <!--Paragraph so "id Outpost" exists bevore the javascript-->
         <meta charset='utf-8'>
         <title>ctof</title>
-        <script src="simplecalc.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <body>
-        <input name="celsi" type="text" maxlength="20" id="celint" class="celclass"/>
-        <button function="">Rechne</button>
-        <p id='output'></p>
+        <div class="Rechner">
+            <h1>Celsius zu Fahrenheit Rechner</h1>
+            <p>Celsius eingeben:</p>
+            <input id="celsi" type="number" name="celsius"/>
+            <button id="btn">Rechnen</button>
+            <h3>Ergebniss: </h3>
+            <p id='output'></p>
+        </div>
+        
+        <script src="simplecalc.js"></script>
+
     </body>
     
 </html>

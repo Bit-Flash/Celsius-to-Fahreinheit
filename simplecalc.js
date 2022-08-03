@@ -1,16 +1,13 @@
 // Crad zu Celsius Umrechnen
-bqqb
-document.getElementById('textbox_id').far;
-
-let result = ctof(far);
+const eele = document.getElementById("btn");
+            eele.addEventListener("click", ctof);
 
 
-function ctof(cel){
+            function ctof() {
 
-   return cel * (9 / 5) + 32;
+            document.getElementById('output').innerHTML = "Fahrenheit: " + (document.getElementById("celsi").value * (9 / 5) + 32);
+            }
 
-}
 
-document.getElementById('output').innerHTML = "Fahreinheit: " + result;
 
-console.log(result)
+
